@@ -1,0 +1,18 @@
+@media screen and (min-width: 576px) {
+  .container__home {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container__home {
+    max-width: 992px;
+    margin: auto;
+  }
+
+  .articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}

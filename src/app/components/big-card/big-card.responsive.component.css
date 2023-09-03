@@ -1,0 +1,9 @@
+@media screen and (min-width: 992px) {
+  span {
+    font-size: .7rem;
+  }
+
+  h2 a {
+    font-size: 2rem;
+  }
+}

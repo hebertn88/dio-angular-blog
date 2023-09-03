@@ -1,0 +1,32 @@
+.container__menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: .5rem;
+}
+
+.nav-links > li {
+  display: block;
+  padding: .5rem 1rem;
+  border: 1px solid #111111;
+}
+
+.nav-links > li, .nav-links > li a {
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav-links > li:hover {
+  border: 1px solid #fff;
+}
+
+.nav-links > li:hover a {
+  color: #fff;
+}

@@ -1,0 +1,11 @@
+@media screen and (min-width: 576px) {
+  .nav-links {
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-links {
+    gap: 4rem;
+  }
+}

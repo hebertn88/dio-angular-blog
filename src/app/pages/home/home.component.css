@@ -1,0 +1,9 @@
+.container__home {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+}
