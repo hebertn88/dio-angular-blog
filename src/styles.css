@@ -7,7 +7,7 @@
   background-color: #111111;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: #464646;
+  color: grey;
 }
 
 body {
@@ -17,4 +17,23 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 992px;
+    margin: auto;
+  }
 }

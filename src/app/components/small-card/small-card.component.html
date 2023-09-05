@@ -1,9 +1,10 @@
 <div class="container__smal-card">
-  <div class="img-container">
-    <img src="https://fastly.picsum.photos/id/96/4752/3168.jpg?hmac=KNXudB1q84CHl2opIFEY4ph12da5JD5GzKzH5SeuRVM" alt="">
-  </div>
   <div class="texts">
-    <span>Setembro 03, 2023</span>
-    <h2><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h2>
+    <span>{{ date.toString() }}</span>
+    <h2><a [routerLink]="['content', id]">{{ title }}</a></h2>
   </div>
+  <div class="img-container">
+    <img src="{{ image }}" alt="Image">
+  </div>
+
 </div>

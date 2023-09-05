@@ -3,14 +3,7 @@
   grid-template-columns: 1fr .7fr;
   padding: 2rem 0;
   gap: .5rem;
-  border-bottom: 1px solid #181818;
-}
-
-.container__smal-card div:nth-child(1) {
-  order: 2;
-}
-.container__smal-card div:nth-child(2) {
-  order: 1;
+  border-bottom: 1px solid #464646;
 }
 
 .img-container {
@@ -31,7 +24,7 @@
 }
 
 .texts > span {
-  font-size: .7rem;
+  font-size: .8rem;
   color: #313131;
 }
 

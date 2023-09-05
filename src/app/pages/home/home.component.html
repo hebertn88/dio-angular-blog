@@ -1,16 +1,21 @@
-<div class="container__home">
-  <header>
-    <app-menu-bar></app-menu-bar>
-    <app-menu-title [title]="'Hebert Blog'"></app-menu-title>
-  </header>
-  <section class="articles">
-    <main class="main-card">
-      <app-big-card></app-big-card>
-    </main>
-    <aside class="small-card-list">
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
-      <app-small-card></app-small-card>
-    </aside>
-  </section>
-</div>
+<section class="articles">
+  <main class="main-card">
+    <app-big-card
+      [id]="mainArticle.id"
+      [image]="mainArticle.image"
+      [title]="mainArticle.title"
+      [description]="mainArticle.description"
+    >
+    </app-big-card
+    >
+  </main>
+  <aside class="small-card-list">
+      <app-small-card *ngFor="let artitcle of asideArticles"
+        [id]="artitcle.id"
+        [image]="artitcle.image"
+        [title]="artitcle.title"
+      >
+      </app-small-card
+      >
+  </aside>
+</section>

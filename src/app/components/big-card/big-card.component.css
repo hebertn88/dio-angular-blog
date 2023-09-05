@@ -3,7 +3,7 @@
   flex-direction: column;
   padding: 2rem 0;
   gap: 1rem;
-  border-bottom: 1px solid #181818;
+  border-bottom: 1px solid #464646;
 }
 
 .img-containter {
@@ -15,12 +15,16 @@
   object-fit: contain;
 }
 
-span {
-  font-size: .7rem;
+.container__big-card span {
+  font-size: .8rem;
   color: #313131;
 }
 
-h2 a {
+.container__big-card > h2 > a {
   color: #e0e0e0;
   font-size: 2rem;
+}
+
+.container__big-card p {
+  text-align: justify;
 }

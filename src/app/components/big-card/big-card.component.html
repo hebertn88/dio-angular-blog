@@ -1,9 +1,9 @@
 <div class="container__big-card">
   <div class="img-containter">
-    <img src="https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ" alt="Imagem">
+    <img src="{{ image }}" alt="Image">
   </div>
-  <span class="date">Setembro 03, 2023</span>
-  <h2><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam molestiae cum dignissimos ex. Dolorem quis numquam illo labore minima odit accusamus harum laborum repudiandae sequi! Obcaecati dignissimos minus non voluptatibus?</p>
+  <span class="date">{{ date }}</span>
+  <h2><a [routerLink]="['content', id]">{{ title }}</a></h2>
+  <p>{{ description }}</p>
 </div>
 

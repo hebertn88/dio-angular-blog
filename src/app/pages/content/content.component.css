@@ -1,0 +1,46 @@
+.container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.img_container {
+  position: relative;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.img_container img {
+  width: 100%;
+  object-fit: contain;
+}
+
+div.backHome {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid #464646;
+  border-bottom: 1px solid #464646;
+}
+
+.buttonBackHome {
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.buttonBackHome:hover {
+  color: #fff;
+}
+
+h2.title {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.container__content > p {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
